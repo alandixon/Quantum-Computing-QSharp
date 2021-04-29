@@ -10,5 +10,15 @@ The plan is to follow through the articles, starting with [Introduction to quant
 
 The articles recommend using [Visual Studio Code](https://code.visualstudio.com/) but I'm going to use [VS2019](https://visualstudio.microsoft.com/vs/) as I'm very familiar with it.
 
+## Credits
+
+### StrathWeb
+
+All the QC articles at [StrathWeb](https://www.strathweb.com/)
+
+### Typora
+
+For editing Markdown. I used to use this [markdown editor](https://github.com/madskristensen/MarkdownEditor) which [installs as a VS2019 extension](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.MarkdownEditor), but I started using [Typora](https://typora.io/) and I'm convinced.
+
 
 
