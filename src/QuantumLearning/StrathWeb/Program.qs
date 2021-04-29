@@ -1,11 +1,13 @@
-﻿namespace Quantum.StrathWeb {
-
+﻿namespace QubitExample
+// namespace Quantum.StrathWeb
+{
+ 
     open Microsoft.Quantum.Canon;
     open Microsoft.Quantum.Intrinsic;
-
     
+ 
     @EntryPoint()
-    operation HelloQ () : Unit {
+    operation HelloQ() : Unit {
         Message("Hello quantum world!");
     }
 }
