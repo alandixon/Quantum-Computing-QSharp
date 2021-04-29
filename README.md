@@ -10,7 +10,9 @@ The plan is to follow through the articles, starting with [Introduction to quant
 
 The articles recommend using [Visual Studio Code](https://code.visualstudio.com/) but I'm going to use [VS2019](https://visualstudio.microsoft.com/vs/) as I'm very familiar with it.
 
-For each article, I'll put in my notes and any gotchas I found
+For each article, I'll put in my notes and any gotchas I found.
+
+Also, my Quantum Glossary may help ...
 
 ## 1 - Intro,  background and the qubit
 
@@ -30,7 +32,9 @@ Without this, the runtime wouldn't know where to start. It's a bit like a C/C++ 
 
 Q# is new and constantly evolving. I found two things in the StrathWeb code that were deprecated / needed changing.
 
-- Brackets are deprecated in certain circumstances:
+- The "using" keyword has been replaced with "use", and qubits may now be allocated without a block.	
+
+- Brackets are deprecated in certain circumstances.
   ```qsharp
   using (qubit = Qubit())
     {for (idx in 0..count)
@@ -41,7 +45,7 @@ Q# is new and constantly evolving. I found two things in the StrathWeb code that
     {for idx in 0..count
   ```
 
-- The "using" keyword has been replaced with "use", and qubits may now be allocated without a block.	
+  
 
 ## Credits
 
