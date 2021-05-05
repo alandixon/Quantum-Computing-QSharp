@@ -12,7 +12,7 @@ The articles recommend using [Visual Studio Code](https://code.visualstudio.com/
 
 For each article, I'll put in my notes and any gotchas I found.
 
-Also, my Quantum Glossary may help ...
+Also, my [Quantum Glossary](https://github.com/alandixon/Quantum-Computing-QSharp/blob/main/QuantumGlossary.md) may help ...
 
 ## 1 - Intro,  background and the qubit
 
