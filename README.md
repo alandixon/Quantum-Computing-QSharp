@@ -2,7 +2,7 @@
 
 This is my repo for learning QC with Q#.
 
-In April 2021, I took part in the [Quantum Coalition Hack](https://www.quantumcoalition.io/), which immediately showed me that [I knew next to nothing](https://github.com/alandixon/qchack-microsoft-challenge) about [Quantum Computing](https://en.wikipedia.org/wiki/Quantum_computing), so I looked around for resources to learn the basics of QC with Q#.
+In April 2021, I [took part](https://github.com/alandixon/qchack-microsoft-challenge) in the [Quantum Coalition Hack](https://www.quantumcoalition.io/), which immediately showed me that I knew next to nothing about [Quantum Computing](https://en.wikipedia.org/wiki/Quantum_computing), so I looked around for resources to learn the basics of QC with Q#.
 
 I couldn't find what I wanted, apart from [a set of articles](https://www.strathweb.com/category/quantum-computing/) on https://www.strathweb.com/.
 
