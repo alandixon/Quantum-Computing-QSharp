@@ -12,40 +12,11 @@ The articles recommend using [Visual Studio Code](https://code.visualstudio.com/
 
 For each article, I'll put in my notes and any gotchas I found.
 
-Also, my Quantum Glossary may help ...
+Also, my [Quantum Glossary](https://github.com/alandixon/Quantum-Computing-QSharp/blob/main/QuantumGlossary.md) may help ...
 
-## 1 - Intro,  background and the qubit
+[Part 1 - Intro,  background and the qubit](docs/Part 1 - Intro,  background and the qubit.md)
 
-#### Hello quantum world
 
-`src\QuantumLearning\StrathWeb\Program.qs`
-
-Because I'm running in VS2019, I dispensed with the C# boot framework program and annotated the method:
-```qsharp
-[@EntryPoint()]()
-HelloQ()
-```
-
-Without this, the runtime wouldn't know where to start. It's a bit like a C/C++ main() method.
-
-#### MeasureQubits
-
-Q# is new and constantly evolving. I found two things in the StrathWeb code that were deprecated / needed changing.
-
-- The "using" keyword has been replaced with "use", and qubits may now be allocated without a block.	
-
-- Brackets are deprecated in certain circumstances.
-  ```qsharp
-  using (qubit = Qubit())
-    {for (idx in 0..count)
-  ```
-  Becomes
-  ```qsharp
-  use qubit = Qubit()
-    {for idx in 0..count
-  ```
-
-  
 
 ## Credits
 

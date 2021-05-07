@@ -1,7 +1,5 @@
 ﻿namespace QubitExample
-// namespace Quantum.StrathWeb
 {
- 
     open Microsoft.Quantum.Canon;
     open Microsoft.Quantum.Intrinsic;
     
@@ -11,7 +9,6 @@
     }
 
 
-    @EntryPoint()
     operation MeasureQubits(count : Int) : Int { 
         mutable resultsTotal = 0; 
         use qubit = Qubit() { 
@@ -26,3 +23,4 @@
     }
 
 }
+
