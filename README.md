@@ -14,7 +14,7 @@ For each article, I'll put in my notes and any gotchas I found.
 
 Also, my [Quantum Glossary](https://github.com/alandixon/Quantum-Computing-QSharp/blob/main/QuantumGlossary.md) may help ...
 
-[Part 1 - Intro,  background and the qubit](docs/Part 1 - Intro,  background and the qubit.md)
+[Part 1 - Intro,  background and the qubit](docs/Part%201%20-%20Intro%2C%20%20background%20and%20the%20qubit.md)
 
 
 
