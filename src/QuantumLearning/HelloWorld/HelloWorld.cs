@@ -11,7 +11,9 @@ namespace QubitExample
         {
             CallHelloQ();
 
-            await CallMeasureQubitsAsync();
+            await CallMeasureQubitsAsyncPauliZ();
+
+            await CallMeasureQubitsAsyncPauliX();
         }
 
         static void CallHelloQ()
@@ -23,14 +25,27 @@ namespace QubitExample
             Console.WriteLine("---------------------------------------------------");
         }
 
-        static async Task CallMeasureQubitsAsync()
+        static async Task CallMeasureQubitsAsyncPauliZ()
         {
             using var qsim = new QuantumSimulator();
 
             var repeats = 100;
             Console.WriteLine($"Running qubit measurement {repeats} times.");
 
-            var results = await MeasureQubits.Run(qsim, repeats);
+            var results = await MeasureQubitsPauliZ.Run(qsim, repeats);
+            Console.WriteLine($"Received {results} ones.");
+            Console.WriteLine($"Received {repeats - results} zeros.");
+            Console.WriteLine("---------------------------------------------------");
+        }
+
+        static async Task CallMeasureQubitsAsyncPauliX()
+        {
+            using var qsim = new QuantumSimulator();
+
+            var repeats = 100;
+            Console.WriteLine($"Running qubit measurement {repeats} times.");
+
+            var results = await MeasureQubitsPauliX.Run(qsim, repeats);
             Console.WriteLine($"Received {results} ones.");
             Console.WriteLine($"Received {repeats - results} zeros.");
             Console.WriteLine("---------------------------------------------------");
