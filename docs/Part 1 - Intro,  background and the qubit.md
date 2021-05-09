@@ -107,3 +107,10 @@ can be compacted to
     set resultsTotal += result == One ? 1 | 0;
 ```
 
+#### Questions
+
+My principle questions from this first article are:
+
+- What is a computational basis?
+- What do the PauliZ and PauliX measurements really do?
+

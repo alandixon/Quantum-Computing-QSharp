@@ -7,6 +7,8 @@
 |                   |                                                              |                                                 |
 | Bloch sphere      | A geometrical  representation of the pure state space of a two-level quantum mechanical  system (qubit), | https://en.wikipedia.org/wiki/Bloch_sphere      |
 |                   |                                                              |                                                 |
+| CNOT gate         | Conditional NOT. Also see Toffoli gate.                      |                                                 |
+|                   |                                                              |                                                 |
 | Oracle            | Black box. x ->  f(x) via black box [f]. We know nothing about [f] and can only investigate by  giving it values of x |                                                 |
 |                   |                                                              |                                                 |
 |                   |                                                              |                                                 |
@@ -16,5 +18,5 @@
 | Quantum state     | A mathematical  entity that provides a probability distribution for the outcomes of each  possible measurement on a system. | https://en.wikipedia.org/wiki/Quantum_state     |
 |                   |                                                              |                                                 |
 |                   |                                                              |                                                 |
-| Toffoli gate      | (also CCNOT gate),  invented by Tommaso Toffoli, is a universal reversible logic gate, which  means that any reversible circuit can be constructed from Toffoli gates | https://en.wikipedia.org/wiki/Toffoli_gate      |
+| Toffoli gate      | (also CCNOT gate),  invented by Tommaso Toffoli, is a universal reversible logic gate, which  means that any reversible circuit can be constructed from Toffoli gates. Also see CNOT gate. | https://en.wikipedia.org/wiki/Toffoli_gate      |
 |                   |                                                              |                                                 |
