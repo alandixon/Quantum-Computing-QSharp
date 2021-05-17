@@ -1,8 +1,7 @@
+using Microsoft.Quantum.Simulation.Simulators;
 using System;
 using System.Threading.Tasks;
-using Microsoft.Quantum.Simulation.Core;
-using Microsoft.Quantum.Simulation.Simulators;
- 
+
 namespace QubitExample
 {
     class Driver
