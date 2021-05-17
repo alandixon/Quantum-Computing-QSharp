@@ -1,6 +1,6 @@
 # Quantum Glossary
 
-
+[Another quantum glossary / dictionary](https://entangledphysics.com/dictionary-of-qi-qc/) by [Marco Cerezo](http://en.gravatar.com/marcocerezo)
 
 |                   |                                                              |                                                 |
 | ----------------- | ------------------------------------------------------------ | ----------------------------------------------- |

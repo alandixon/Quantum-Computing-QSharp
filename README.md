@@ -24,7 +24,7 @@ The first thing I came up with was [Quantum Computing for Computer Scientists](h
 
 ## Credits
 
-### StrathWeb
+### [StrathWeb](https://www.strathweb.com)
 
 All the QC articles at [StrathWeb](https://www.strathweb.com/)
 
@@ -32,9 +32,13 @@ All the QC articles at [StrathWeb](https://www.strathweb.com/)
 
 For his summary of the Microsoft Research lecture on "Quantum Computing for Computer Scientists".
 
-### Typora
+### [Typora](https://typora.io)
 
 For editing Markdown. I used to use this [markdown editor](https://github.com/madskristensen/MarkdownEditor) which [installs as a VS2019 extension](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.MarkdownEditor), but I started using [Typora](https://typora.io/) and I'm convinced.
+
+### [QuIDE](http://www.quide.eu/)
+
+A quantum computer simulation platform written in C#. Good for drawing Quantum circuits as well.
 
 
 

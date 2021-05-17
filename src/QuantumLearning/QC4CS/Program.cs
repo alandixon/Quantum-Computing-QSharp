@@ -12,23 +12,22 @@ namespace QC4CS
 {
     class Program
     {
-        static async System.Threading.Tasks.Task Main(string[] args)
+        static async Task Main(string[] args)
         {
-
-            await CallMeasureQubitsAsyncPauliZ();
-
+            await CallStateMachine();
         }
 
-        static async Task CallMeasureQubitsAsyncPauliZ()
+        static async Task CallStateMachine()
         {
             using var qsim = new QuantumSimulator();
 
-            var repeats = 100;
-            Console.WriteLine($"Running qubit measurement {repeats} times.");
+            Console.WriteLine($"Running state machine.");
+            Console.WriteLine("---------------------------------------------------");
 
-            var results = await MeasureQubitsPauliZ.Run(qsim, repeats);
-            Console.WriteLine($"Received {results} ones.");
-            Console.WriteLine($"Received {repeats - results} zeros.");
+            var results = await StateMachine.Run(qsim);
+            Console.WriteLine("---------------------------------------------------");
+
+            Console.WriteLine($"Received {results}.");
             Console.WriteLine("---------------------------------------------------");
         }
 
